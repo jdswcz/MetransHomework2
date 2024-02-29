@@ -51,7 +51,7 @@ This will create 20 employee records with random data in the database. This endp
 
 There are multiple possible approaches to implement validation. As the task request specified to do validation in model, I've used DataValidation attributes.
 
-The basic data validation attributes does not support date comparison. Thus, I added the DateMustBeEarlierAttribute.cs class that adds support of date comparison in mode definition. Usage:
+The basic data validation attributes do not support date comparison. Thus, I added the DateMustBeEarlierAttribute.cs class that adds support of date comparison in model definition. Usage:
 
 - `[DateMustBeEarlier("EmployedTo", ErrorMessage = "EmployedFrom must be earlier than EmployedTo")]`
 
