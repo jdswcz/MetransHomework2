@@ -1,4 +1,4 @@
-# Metrans Homework 2 (C#/ASP.NEt Core/REST API)
+# Metrans Homework 2 (C#/ASP.NET Core/REST API)
 
 Create a REST API using ASP.NET Core by following these steps:
 
